@@ -1,0 +1,63 @@
+html{
+    background-color:purple;   
+}
+body{   
+    border: 5px solid black;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+nav{  
+    border-top: 2px solid peru;
+    border-bottom: 2px solid peru;
+    font-weight:bold;
+    color: #527853;
+    text-align: right;  
+}
+a{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1{
+    color:#EE7214; 
+}
+h2{
+    color:#527853;
+    padding-left: 20px;
+}
+p,.date{
+    padding-left:20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+  /* An attribute selector */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+footer{
+    border-top:2px solid peru;
+    text-align:right;  
+}
+header{   
+    text-align:center;
+}
+body{
+    background-color: white;
+}
+
